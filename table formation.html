@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Login</h4>
+    <form>
+<input type="text"placeholder="user name">
+<input type="password"placeholder="password">
+<div>
+<label for="101">
+    <br>
+    <div>
+        <label for="gender">gender</label>
+        <br>
+        <input type="radio" value="male" id= "100" name="gender">
+        <label for="male">male</label>
+        <input type="radio" value="female" id="100"name="gender">
+        <label for="female">female</label>
+
+    </div>
+    <p>Class</p>
+    <label for="class">
+    <input type="radio"value="class XI"id="102"name="class">class XI
+    <input type="radio"value="class XII"id="102"name="class">class XII
+    </label>
+    </div>
+    <br><br>
+    <label for="subject">SUBJECT</label>
+    <br>
+    <label for="math">
+        <input type="checkbox"value="math"name="subject">mathematics
+</label>
+<br>
+<label for="chemestry">
+    <input type="checkbox"value="chemestry"name="subject">chemestry
+</label>
+<br>
+<label for="physics">
+    <input type="checkbox"value="physics"name="subject">physics
+</label>
+<br>
+<label for="english">
+    <input type="checkbox"value="english"name="subject">English
+</label>
+<br>
+<label for="hindi">
+    <input type="checkbox"value="hindi"name="subject">Hindi
+</label>
+<br><br>
+
+<select name="city"slected id="city">
+<option value="Delhi">Delhi</option>
+<option value="Delhi">Agra</option>
+<option value="Delhi">Mumbai</option>
+<option value="Delhi">Banglor</option>
+<option value="Delhi">Gajipur</option>
+</select>
+<br><br>
+<textarea name="feedback"id="101"placeholder="please give your feedback here"rows="7">feedback</textarea>
+<br><br>
+<button type="submit" value="Submit">submit</button>
+<button type="reset" value="reset">reset</button>
+    </form>
+    <table>
+        <thead>
+        <caption>Student Data</caption>
+        <tr>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th> Age</th>
+        </tr>
+        </thead>
+       <tbody>
+        <tr>
+        <td>Kuldeep</td>
+        <td>Kumar</td>
+        <td>28</td>
+        </tr>
+        <tr>
+            <td>Shravan</td>
+            <td>Yadav</td>
+            <td>22</td>
+            </tr>
+            <tr>
+                <td>Deepak</td>
+                <td>Yadav</td>
+                <td>24</td>
+                </tr>
+                <tr>
+                    <td>Deepak</td>
+                    <td>Yadav</td>
+                    <td>36</td>
+                    </tr>
+                    <tr>
+                        <td>Deepak</td>
+                        <td>Yadav</td>
+                        <td>40</td>
+                        </tr>
+        </table>
+    </table>
+    
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/bqGtrvcR5ls?si=G0-pDppgMd-mA2tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <video width="300" height="200" src="/myvideo.mp4"controls>my video</video>
+    <iframe width="300" height="200" src="https://www.wikipedia.org" my website ></iframe>
+</body>
+</html>
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Form Example</title>
+</head>
+<body>
+    <h4>Login</h4>
+    <form action="process_form.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+<br>
+<div>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        </div>
+<br>
+<div>
+        <label for="class">Class:</label>
+        <input type="radio" id="classXI" name="class" value="class XI" required>
+        <label for="classXI">Class XI</label>
+        <input type="radio" id="classXII" name="class" value="class XII" required>
+        <label for="classXII">Class XII</label>
+        </div>
+<br>
+        <label for="subjects">Subjects:</label>
+        <input type="checkbox" id="math" name="subjects" value="mathematics">
+        <label for="math">Mathematics</label>
+        <input type="checkbox" id="chemistry" name="subjects" value="chemistry">
+        <label for="chemistry">Chemistry</label>
+        <input type="checkbox" id="physics" name="subjects" value="physics">
+        <label for="physics">Physics</label>
+        <input type="checkbox" id="english" name="subjects" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="hindi" name="subjects" value="hindi">
+        <label for="hindi">Hindi</label>
+<br>
+        <label for="city">City:</label>
+        <br>
+        <select id="city" name="city" required>
+            <option value="Delhi">Delhi</option>
+            <option value="Agra">Agra</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+        </select>
+<br>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" placeholder="Please give your feedback here" rows="7" required></textarea>
+<br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html> 
