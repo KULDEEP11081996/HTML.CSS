@@ -1,0 +1,41 @@
+h1{
+    color: rgb(213, 9, 14);
+    background-color:#86b9b9;
+    text-align: center;
+    text-decoration: double underline;
+}
+p{
+    color: rgb(10, 19, 138);
+text-decoration: red dotted;   
+ font-size:bolder;
+    font-weight: 800;
+
+}
+h2{
+    text-decoration: rgb(201, 126, 13) double underline;
+    letter-spacing: 10px;
+    }
+h3{
+    line-height: .5;
+}
+p{
+    line-height: normal;
+    background-color: rgb(231, 103, 103);
+}
+h1{
+    letter-spacing: 10px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:double rgb(75, 204, 204) 
+    underline;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: #ffa511;
+
+}
